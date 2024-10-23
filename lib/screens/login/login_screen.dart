@@ -51,7 +51,7 @@ class _LoginScreenState extends State<LoginScreen> {
     };
 
     final response = await http.post(
-      Uri.parse(authUrl),
+      Uri.parse(getTokenUrl),
       body: jsonEncode(loginData),
     );
 
