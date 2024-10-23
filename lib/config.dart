@@ -1,7 +1,8 @@
 // NOTE: API 호출 URL
 const String baseUrl = 'https://daelim-server.fleecy.dev/functions/v1';
 const String authUrl = '$baseUrl/auth/get-token';
-const String getUserDataUrl = '$baseUrl/auth/my-data';
+const String newsUrl = '$baseUrl/exam/midterm/news';
+const String news2Url = '$baseUrl/exam/midterm/news/pin';
 
 // NOTE: 아이콘 URL
 const String icGoogle =
